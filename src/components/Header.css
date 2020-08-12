@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.color{
+    background-color: #F3C300;
+}
+
+.logo{
+    max-height: 3.5rem;
+}
+
+.layout{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+}
+
+.button{
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    
+    border-radius: 0.4rem;
+
+    padding: 0.48rem 0.6rem;
+    margin: 0.2rem;
+
+    transition: 600ms;
+    background-color: #DF0024;
+    
+}
+
+.button:hover{
+    background-color: #df002554;
+    color: #666;
+}
