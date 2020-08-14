@@ -1,0 +1,85 @@
+.color{
+    background-color: #F3C300;
+}
+
+.logo{
+    height: 4rem;
+}
+
+.logo-ft{
+    height: 8rem;
+}
+
+.banner{
+    max-width: 100vw;
+    height: 18rem;
+    background-image: url('./assets/img/banner.jpg');   
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 4px black;
+}
+
+.nav{
+    background-color: white;
+}
+
+.layout{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-color{
+    background-color: whitesmoke;
+}
+
+.list-layout{
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+}
+
+.btn-nav{
+    padding: 1.1rem;
+    margin: 0;
+    transition: 300ms;
+    color: #666;
+}
+
+.btn-nav:hover{
+    background-color: #f05555;
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #f05555;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+.login{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.center{
+    text-align: center;
+}
