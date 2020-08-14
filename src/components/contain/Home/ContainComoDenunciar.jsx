@@ -1,20 +1,20 @@
 import React from 'react';
 
 export default props =>(
-    <main className='container' >
+    <main className='container text-justify center pb-5' >
         <h1 class="font text-center display-4 py-4">Para poder denunciar um local de risco, é
             necessário efetuar um cadastro
             no sistema, fornecendo as seguintes informações:</h1>
 
         <ul class="list-group text-justify">
-            <li className="list-group-item list-group-item-action border border-primary mb-3"><b>Nome completo</b> e
-                <b>CPF</b>
+            <li className="list-group-item list-group-item-action border border-primary mb-3"><b>Nome completo</b> e 
+                <b> CPF </b>
                 para a
                 identificação e garantia da
                 autenticidade das
                 denúncias.</li>
             <li className="list-group-item list-group-item-action border border-primary mb-3"><b>Telefone</b> e
-                <b>E-mail</b>
+                <b> E-mail </b>
                 para contato
                 e/ou envio de informações
                 sobre o caso
@@ -25,12 +25,12 @@ export default props =>(
                 conta a acesse.
             </li>
             <li className="list-group-item list-group-item-action border border-primary mb-3">Após realizar o
-                <b>cadastro</b>,
+                <b> cadastro </b>,
                 é
-                preciso <b>iniciar uma sessão</b>
+                preciso <b> iniciar uma sessão </b>
                 com sua conta no
                 sistema,
-                utilizando seu <b>E-mail</b>
+                utilizando seu <b> E-mai </b>
                 como login e inserindo a senha cadastrada anteriormente.</li>
             <li className="list-group-item list-group-item-action border border-primary mb-3">Isto feito, basta clicar em
                 <b>“Denunciar Agora”</b> e já
@@ -40,10 +40,10 @@ export default props =>(
 
             <p className="font text-center display-4 py-3">Página de Denúncia</p>
 
-            <li className="list-group-item border border-info mb-3 text-info">Nesta tela, deverão ser
+            <li className="list-group-item border-info mb-3 text-info">Nesta tela, deverão ser
                 preenchidos os seguintes campos:
 
-                <ul>
+                <ul className='p-0'>
                     <li className="list-group-item list-group-item-action border border-info my-3">Informações do
                         Denunciante: <b>Nome, CPF</b> e <b>Telefone</b>.
                     </li>
@@ -59,7 +59,7 @@ export default props =>(
                         respeito da gravidade da
                         situação, da dificuldade de acesso ao local, ou da grande circulação de pessoas na área.</li>
                     <li className="list-group-item list-group-item-action border border-info mb-3">Também é opcional a
-                        <b>anexação de imagens</b> que forem úteis
+                        <b>               anexação de imagens</b> que forem úteis
                         como primeira
                         avaliação
                         por parte dos agentes de

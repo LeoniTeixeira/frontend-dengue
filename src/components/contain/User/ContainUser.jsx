@@ -6,7 +6,7 @@ export default props =>{
         type ?
         <div className='center my-5'>
             <h1>Cidadão</h1><br/>
-            <a className='btn btn-primary btn-block col-4 mx-auto my-auto' href="">Criar Denuncia</a><br/>
+            <a className='btn btn-primary btn-block col-4 mx-auto my-auto' href="/user/denunciar">Criar Denuncia</a><br/>
             <a className='btn btn-primary btn-block col-4 mx-auto my-auto' href="">Minhas Denuncias</a><br/>
             <a className='btn btn-primary btn-block col-4 mx-auto my-auto' href="">Meus Dados</a>
         </div> :

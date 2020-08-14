@@ -8,10 +8,11 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Submit from './pages/Submit';
 import ComoDenunciar from './pages/ComoDenunciar';
+import ErrorPage from './pages/ErrorPage';
 
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import CadastroDenuncia from './pages/CadastroDenuncia';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,8 +20,9 @@ ReactDOM.render(
       <Route  exact path='/' component={Home} />
       <Route  path='/como-denunciar' component={ComoDenunciar} />
       <Route  path='/login' component={Login} />
-      <Route  path='/user' component={User} />
+      <Route  exact path='/user' component={User} />
       <Route  path='/submit' component={Submit} />
+      <Route  path='/user/denunciar' component={CadastroDenuncia} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,11 +1,11 @@
 import React from 'react';
 
 export default props =>(
-    <main className='container' >
+    <main className="container text-justify center pb-5">
 
-        <h1 className='title'>Dengue: sintomas, causas, tratamento e prevenção</h1>
+        <h1 className="font text-center display-4 py-4">Dengue: sintomas, causas, tratamento e prevenção</h1>
 
-        <p className='paragraph'>
+        <p>
             Dengue é uma doença febril grave causada por um arbovírus. Arbovírus são vírus transmitidos por picadas
             de
             insetos, especialmente os mosquitos.
@@ -33,18 +33,18 @@ export default props =>(
                 servir de reprodução do mosquito Aedes Aegypti</strong>.
         </p>
 
-        <h3 className='title'>Sintomas comuns causados pela dengue:</h3>
-        <ul className='list'>
-            <li>Dores musculares intensas</li>
-            <li>Dor ao movimentar os olhos</li>
-            <li>Mal estar</li>
-            <li>Falta de apetite</li>
-            <li>Manchas vermelhas pelo corpo</li>
-            <li>Dor de cabeça</li>
-            <li>Febre alta - 38.5 °C</li>
+        <h3 className="text-center pb-3">Sintomas comuns causados pela dengue:</h3>
+        <ul className="list-group pb-3">
+            <li className="list-group-item list-group-item-action">Dores musculares intensas</li>
+            <li className="list-group-item list-group-item-action">Dor ao movimentar os olhos</li>
+            <li className="list-group-item list-group-item-action">Mal estar</li>
+            <li className="list-group-item list-group-item-action">Falta de apetite</li>
+            <li className="list-group-item list-group-item-action">Manchas vermelhas pelo corpo</li>
+            <li className="list-group-item list-group-item-action">Dor de cabeça</li>
+            <li className="list-group-item list-group-item-action">Febre alta > 38.5 °C</li>
         </ul>
 
-        <p className='paragraph'>
+        <p>
             Na fase febril inicial da dengue, pode ser difícil diferenciá-la. A forma grave da doença inclui dor
             abdominal intensa e contínua, vômitos persistentes e sangramento de mucosas. Ao apresentar os sintomas,
             é
@@ -66,8 +66,5 @@ export default props =>(
             vida da pessoa em risco.
         </p>
 
-        <div>
-            
-        </div>
     </main>
 )
