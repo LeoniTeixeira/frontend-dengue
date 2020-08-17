@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ContainHome from './contain/Home/ContainHome';
-import ContainComoDenunciar from './contain/Home/ContainComoDenunciar'
+import ContainHome from './Home/ContainHome';
+import ContainComoDenunciar from './Home/ContainComoDenunciar'
 
 export default props => {
     const active = props.active;

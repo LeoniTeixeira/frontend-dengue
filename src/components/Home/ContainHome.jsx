@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default props =>(
-    <main className="container text-justify center pb-5">
+    <main className="col-lg-10 col-md-10 col-xs-12 container text-justify center pb-5">
 
         <h1 className="font text-center display-4 py-4">Dengue: sintomas, causas, tratamento e prevenção</h1>
 

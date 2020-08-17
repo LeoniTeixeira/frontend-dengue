@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default props =>(
-    <main className='container text-justify center pb-5' >
+    <main className='col-lg-10 col-md-10 col-xs-12 container text-justify center pb-5' >
         <h1 class="font text-center display-4 py-4">Para poder denunciar um local de risco, é
             necessário efetuar um cadastro
             no sistema, fornecendo as seguintes informações:</h1>
