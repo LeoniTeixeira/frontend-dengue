@@ -23,7 +23,7 @@ export default props =>(
                 </div> 
                 <button className='btn btn-primary btn-block mt-4' type="submit">Entrar</button>
                 <br/>
-                <p>Não possui conta? <a href='/submit'>Clique aqui</a> para se cadastrar.</p>
+                <p>Não possui conta? <a href='/signin'>Clique aqui</a> para se cadastrar.</p>
             </form>
         </main>
         <Footer/>

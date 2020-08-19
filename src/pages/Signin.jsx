@@ -10,7 +10,7 @@ export default props =>(
             <h1 className='text-center mt-5'>Cadastro de Cidadão</h1>
             <form className='col-lg-8 col-md-10 col-xs-12 mx-auto mt-5' id="cadastraCidadao" method="post" action="/cid">
                 <div className="form-row">
-                    <div className="col-lg-8 col-md-10 col-xs-12 mb-3">
+                    <div className="col-12 mb-3">
                         <label for="nomeCidadao">Nome</label>
                         <input type="text" className="form-control input-form" id="nomeCidadao" 
                             placeholder="Insira o nome" />
@@ -54,8 +54,7 @@ export default props =>(
                     </div>
                 </div>
 
-                <button className='btn btn-primary btn-block col-4 mx-auto my-5' type='submit'>Entrar</button>
-                        
+                <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Cadastrar</button>        
             </form>
         </main>
         <Footer/>

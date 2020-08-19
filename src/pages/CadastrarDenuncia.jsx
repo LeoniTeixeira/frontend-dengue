@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 export default props =>(
     <>
         <Header link1='/user' label1='Voltar'/>
-        <main className='col-lg-8 col-md-10 col-xs-12 mx-auto mx-auto'>
+        <main className='col-lg-8 col-md-10 col-xs-12 mx-auto'>
             <h1 className="font text-center display-4 py-4">Cadastro de Denúncia</h1>
             <form method="post" enctype="multipart/form-data" action="/denuncia" >
                 

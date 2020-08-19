@@ -3,11 +3,11 @@
 }
 
 .logo{
-    height: 4rem;
+    width: 14rem;
 }
 
 .logo-ft{
-    max-width: 40vw;
+    width: 17rem;
 }
 
 .banner{
@@ -24,18 +24,14 @@
 .text{
     color: #fff;
     text-align: center;
-    font-size: 10vh;
+    font-size: 6vh;
     font-family: sans-serif;
     text-transform: uppercase;
     text-shadow: 0px 0px 4px black;
 }
 
-.nav{
-    background-color: white;
-}
 
 .layout{
-    display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
@@ -46,13 +42,15 @@
 
 .list-layout{
     list-style: none;
-    display: flex;
-    padding: 1rem;
+    padding: 0;
 }
 
 .btn-nav{
-    padding: 1.1rem;
-    margin: 0;
+    font-weight: bold;
+    padding: 20px 15px;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
     transition: 300ms;
     color: #666;
 }
@@ -78,4 +76,31 @@
 .login{
     padding-top: 3rem;
     padding-bottom: 5rem;
+}
+
+@media screen and (min-width: 576px){
+    .layout{
+        display: flex;
+        align-items: center;
+    }
+    .list-layout{
+        display: flex;         
+    }
+
+    .text{
+        font-size: 10vh;
+    }
+
+    .btn-nav {
+        font-weight: bold;
+        margin-right: 0;
+        padding: 1.2em 1em;
+        text-transform: uppercase;
+        transition: .3s;
+    }
+
+    .logo-ft{
+        width: 20rem;
+    }
+    
 }
