@@ -2,8 +2,7 @@ import React from 'react';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './pages/Home';
-import ComoDenunciar from './pages/ComoDenunciar';
+import Home from './pages/Home/index';
 
 import Login from './pages/Login';
 import Signin from './pages/Signin';
@@ -28,7 +27,6 @@ export default props => (
     <Router>
       <Switch>
         <Route  exact path='/' component={Home} />
-        <Route  path='/como-denunciar' component={ComoDenunciar} />
 
         <Route  path='/login' component={Login} />
         <Route  path='/signin' component={Signin} />

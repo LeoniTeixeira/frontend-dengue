@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 export default props => {
     const type = 1;
-    const adm = 0;
+    const adm = 1;
     return (
         <>
             <Header link1='/' label1='Sair' />
