@@ -1,28 +1,27 @@
 import React from 'react';
 
 import Logo from '../assets/img/logo.png'
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 export default props => {
     const aux = props.label2
     return (
-        <header className='color layout'>
-            <div>
-                <img className='logo mx-auto' src={Logo} alt="Logo do município de Mogi Mirim" />
-            </div>
-            <div>
-                <ul className=' my-auto list-layout'>
-                    <li className='mx-1'>
-                        <a className='btn btn-block btn-danger mx-auto my-2' href={props.link1}>{props.label1}</a>
-                    </li>
-                    {aux ?
-                        <li className='mx-1'>
-                            <a className='btn btn-block btn-danger mx-auto my-2' href={props.link2}>{props.label2}</a>
-                        </li> :
-                        <span />
-                    }
-                </ul>
-            </div>
+        <Navbar collapseOnSelect expand="lg" className='color'>
+            <Navbar.Brand href="/"><img className='logo' src={Logo} alt="Logo do município de Mogi Mirim" /></Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="ml-auto">
 
-        </header>
+                <a className='btn btn-block btn-danger m-1 my-auto' href={props.link1}>{props.label1}</a><div className='pb-1'/>
+                    
+                    {aux ?
+                        <a className='btn btn-block btn-danger m-1 my-auto' href={props.link2}>{props.label2}</a>
+                         :<span />
+                    }
+
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }

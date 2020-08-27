@@ -67,17 +67,14 @@
     text-decoration: none;
 }
 
-.footer{
-    text-align: center;
-    color: white;
-    padding: 2rem;
-}
-
 .login{
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
+footer{
+    margin-top: 5rem;
+}
 @media screen and (min-width: 576px){
     .layout{
         display: flex;
@@ -88,7 +85,7 @@
     }
 
     .text{
-        font-size: 10vh;
+        font-size: 7vh;
     }
 
     .btn-nav {
