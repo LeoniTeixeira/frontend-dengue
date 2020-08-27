@@ -11,7 +11,7 @@ export default props =>(
             <form className='col-lg-8 col-md-10 col-xs-12 mx-auto mt-5' id="cadastraCidadao" method="post" action="/cid">
                 <div className="form-row">
                     <div className="col-12 mb-3">
-                        <label for="nomeCidadao">Nome</label>
+                        <label htmlFor="nomeCidadao">Nome</label>
                         <input type="text" className="form-control input-form" id="nomeCidadao" 
                             placeholder="Insira o nome" />
                     </div>
@@ -19,12 +19,12 @@ export default props =>(
 
                 <div className="form-row">
                     <div className="col-md-6 mb-3">
-                        <label for="cpfCidadao">CPF</label>
+                        <label htmlFor="cpfCidadao">CPF</label>
                         <input type="text" className="form-control input-form" id="cpfCidadao"  
                             placeholder="999.999.999-99" pattern=".{14}"/> 
                     </div>
                     <div className="col-md-6 mb-3">
-                        <label for="telefoneCidadao">Telefone</label>
+                        <label htmlFor="telefoneCidadao">Telefone</label>
                         <input type="text" className="form-control input-form" id="telefoneCidadao"
                             placeholder="(99)99999-9999" pattern=".{15}"/>
                     </div>
@@ -32,12 +32,12 @@ export default props =>(
 
                 <div className="form-row">
                     <div className="col-md-6 mb-3">
-                        <label for="emailCidadao">E-mail</label>
+                        <label htmlFor="emailCidadao">E-mail</label>
                         <input type="email" className="form-control input-form" id="emailCidadao"
                             placeholder="Insira o E-mail"/>
                     </div>
                     <div className="col-md-6 mb-3">
-                        <label for="emailCidadaoConfirma">E-mail</label>
+                        <label htmlFor="emailCidadaoConfirma">E-mail</label>
                         <input type="email" className="form-control input-form" id="emailCidadao"
                             placeholder="Confirme o E-mail"/>
                     </div>
@@ -45,11 +45,11 @@ export default props =>(
 
                 <div className="row">
                     <div className="form-group col-md-6 mb-3">
-                        <label for="senhaCidadao">Senha</label>
+                        <label htmlFor="senhaCidadao">Senha</label>
                         <input className="form-control input-form" type="password" minlength="6" id="senhaCidadao"/>
                     </div>
                     <div className="form-group col-md-6 mb-3">
-                        <label for="confirmaSenhaCidadao">Confirmar Senha</label>
+                        <label htmlFor="confirmaSenhaCidadao">Confirmar Senha</label>
                         <input className="form-control input-form" type="password" minlength="6" id="confirmaSenhaCidadao"/>
                     </div>
                 </div>

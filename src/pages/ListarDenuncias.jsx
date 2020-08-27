@@ -21,7 +21,6 @@ export default props => (
                         <th>Status</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     <tr className="text-center" id="denuncia">
                         <td> </td>

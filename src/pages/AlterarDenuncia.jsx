@@ -9,28 +9,25 @@ export default props =>(
         <main className="col-lg-8 col-md-10 col-xs-12 mx-auto">
             <h1 className="font text-center display-4 py-4">Altera Status da Denúncia</h1>
 
-            <form name="alteraCidadao" method="post" action="/denuncia-altera">
+            <form>
 
-                <input className="form-control" type="hidden" name="_method" value="PUT"/>
-                <input className="form-control" type="hidden" id="id" name="id" value="${data.denuncia.id}" />
+                <input className="form-control" type="hidden" />
+                <input className="form-control" type="hidden" id="id"/>
 
                 <div className="row">
                     <div className="col-md-6 form-group">
-                        <label for="nomeCidadao">Nome</label>
-                        <input type="text" className="form-control input-form" id="nomeCidadao" name="nomeCidadao"
-                          value="${data.denuncia.cidadao}" readonly />
+                        <label htmlFor="nomeCidadao">Nome</label>
+                        <input type="text" className="form-control input-form" id="nomeCidadao" />
                     </div>
 
                     <div className="col-md-6 form-group ">
-                        <label for="cpfCidadao">CPF</label>
-                        <input type="text" className="form-control input-form" id="cpfCidadao" name="cpfCidadao"
-                          value="${data.denuncia.cpf}" readonly />
+                        <label htmlFor="cpfCidadao">CPF</label>
+                        <input type="text" className="form-control input-form" id="cpfCidadao" />
                     </div>
 
                     <div className="col-md-6 form-group ">
-                        <label for="telefoneCidadao">Telefone</label>
-                        <input type="text" className="form-control input-form" id="telefoneCidadao" name="telefoneCidadao"
-                          value="${data.denuncia.telefone}" readonly />
+                        <label htmlFor="telefoneCidadao">Telefone</label>
+                        <input type="text" className="form-control input-form" id="telefoneCidadao" />
                     </div>
                 </div>
 
@@ -38,21 +35,19 @@ export default props =>(
 
                 <div className="row">
                     <div className="col-md-6 form-group">
-                        <label for="ruaDenuncia">Rua</label>
-                        <input type="text" className="form-control input-form" id="ruaDenuncia" name="ruaDenuncia"
-                          value="${data.denuncia.rua}" readonly />
+                        <label htmlFor="ruaDenuncia">Rua</label>
+                        <input type="text" className="form-control input-form" id="ruaDenuncia" />
                     </div>
 
                     <div className="col-md-6 form-group">
-                        <label for="bairroDenuncia">Bairro</label>
-                        <input type="text" className="form-control input-form" id="bairroDenuncia" name="bairroDenuncia"
-                          value="${data.denuncia.bairro}" readonly />
+                        <label htmlFor="bairroDenuncia">Bairro</label>
+                        <input type="text" className="form-control input-form" id="bairroDenuncia" />
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-4 col-lg-2">
-                        <select className="custom-select form-group" name="status">
+                        <select className="custom-select form-group">
                             <option></option>
                             <option value="Pendente">Pendente</option>
                             <option value="Em andamento">Em andamento</option>

@@ -5,12 +5,12 @@ import Footer from '../components/Footer';
 export default props => (
     <>
         <Header link1='/user' label1='Voltar'/>
-        <main class="col-12">
-            <h1 class="font text-center display-4 py-4">Listagem de Visitas</h1>
+        <main className="col-12">
+            <h1 className="font text-center display-4 py-4">Listagem de Visitas</h1>
 
-            <table class="table table-bordered table-hover table-responsive" id="visita">
-                <thead class="thead-light">
-                    <tr class="text-center">
+            <table className="table table-bordered table-hover table-responsive" id="visita">
+                <thead className="thead-light">
+                    <tr className="text-center">
                         <th>Nº Visita</th>
                         <th>Agente</th>
                         <th>Data</th>
@@ -40,7 +40,7 @@ export default props => (
                 </thead>
 
                 <tbody>
-                    <tr class="text-center" id="">
+                    <tr className="text-center" id="">
                         <td></td>
                         <td></td>
                         <td></td>

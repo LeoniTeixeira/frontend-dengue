@@ -6,14 +6,10 @@ export default props => (
     <>
         <Header link1='/user' label1='Voltar'/>
         <main className="col-lg-8 col-md-10 col-xs-12 mx-auto">
-
             <h1 className="font text-center display-4 py-4">Cadastro de Visita</h1>
-
-            <form method="post" action="/visita">
-                
+            <form>
                 <section>
                     <h3 className="text-center my-3">Atividades</h3>
-
                     <div className="row justify-content-lg-center">
                         <div className="col-12 col-md-6 ">
                             <div className="input-group mb-3">
@@ -23,7 +19,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check1" className="form-control">Ponto Estratégico</label>
+                                <label htmlFor="check1" className="form-control">Ponto Estratégico</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -33,7 +29,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check2" className="form-control">Peso de Armadilhas</label>
+                                <label htmlFor="check2" className="form-control">Peso de Armadilhas</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -44,7 +40,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check3" className="form-control">Delimitação de Foco</label>
+                                <label htmlFor="check3" className="form-control">Delimitação de Foco</label>
                             </div>
                         </div>
 
@@ -56,7 +52,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check4" className="form-control">Bloqueio – Contr. Criad.</label>
+                                <label htmlFor="check4" className="form-control">Bloqueio – Contr. Criad.</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -66,7 +62,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check5" className="form-control">Bloqueio – Nebulização</label>
+                                <label htmlFor="check5" className="form-control">Bloqueio – Nebulização</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -76,7 +72,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check6" className="form-control">Arrastão</label>
+                                <label htmlFor="check6" className="form-control">Arrastão</label>
                             </div>
                         </div>
 
@@ -88,7 +84,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check7" className="form-control">Imóveis Especiais</label>
+                                <label htmlFor="check7" className="form-control">Imóveis Especiais</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -98,7 +94,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check8" className="form-control">Criad. Especificos</label>
+                                <label htmlFor="check8" className="form-control">Criad. Especificos</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -108,7 +104,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check9" className="form-control">Casa a Casa – Rotina</label>
+                                <label htmlFor="check9" className="form-control">Casa a Casa – Rotina</label>
                             </div>
                         </div>
 
@@ -120,7 +116,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check10" className="form-control">Casa a Casa – Intensificação</label>
+                                <label htmlFor="check10" className="form-control">Casa a Casa – Intensificação</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -130,7 +126,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check11" className="form-control">Outros</label>
+                                <label htmlFor="check11" className="form-control">Outros</label>
                             </div>
 
                             <div className="input-group mb-3">
@@ -140,7 +136,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="check12" className="form-control">ADL</label>
+                                <label htmlFor="check12" className="form-control">ADL</label>
                             </div>
                         </div>
                     </div>
@@ -158,7 +154,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="tipoVisita1" className="form-control">Rotina</label>
+                                <label htmlFor="tipoVisita1" className="form-control">Rotina</label>
                             </div>
                         </div>
 
@@ -170,7 +166,7 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="tipoVisita2" className="form-control">Pendência</label>
+                                <label htmlFor="tipoVisita2" className="form-control">Pendência</label>
                             </div>
                         </div>
 
@@ -182,78 +178,75 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="tipoVisita3" className="form-control">Demanda</label>
+                                <label htmlFor="tipoVisita3" className="form-control">Demanda</label>
                             </div>
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-6 form-group">
-                            <label for="codMunicipio">Código Município</label>
+                            <label htmlFor="codMunicipio">Código Município</label>
                             <input required className="form-control input-form" type="number" id="codMunicipio" name="codMunicipio" value="3530805" />
                         </div>
 
                         <div className="col-md-6 form-group">
-                            <label for="municipio">Município</label>
+                            <label htmlFor="municipio">Município</label>
                             <input required className="form-control input-form" type="text" id="municipio" name="municipio" value="Mogi Mirim" />
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-6 form-group">
-                            <label for="area">Área</label>
+                            <label htmlFor="area">Área</label>
                             <input required className="form-control input-form" type="number" id="area" name="area" />
                         </div>
 
                         <div className="col-md-6 form-group">
-                            <label for="setorCensitario">Setor Censitário</label>
+                            <label htmlFor="setorCensitario">Setor Censitário</label>
                             <input required className="form-control input-form" type="number" id="setorCensitario" name="setorCensitario" />
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-6 form-group">
-                            <label for="quarteirao">Quarteirão</label>
+                            <label htmlFor="quarteirao">Quarteirão</label>
                             <input required className="form-control input-form" type="number" id="quarteirao" name="quarteirao" />
                         </div>
 
                         <div className="col-md-6 form-group">
-                            <label for="execucao">Execução</label>
+                            <label htmlFor="execucao">Execução</label>
                             <input required className="form-control input-form" type="text" id="execucao" name="execucao" />
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-6 form-group">
-                            <label for="dataVisita">Data</label>
+                            <label htmlFor="dataVisita">Data</label>
                             <input required className="form-control input-form" type="date" id="dataVisita" name="dataVisita" />
                         </div>
 
                         <div className="col-md-6 form-group">
-                            <label for="numCadOrdem">CAD ou Nº Ordem</label>
+                            <label htmlFor="numCadOrdem">CAD ou Nº Ordem</label>
                             <input required className="form-control input-form" type="number" id="numCadOrdem" name="numCadOrdem" />
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-md-8 form-group">
-                            <label for="endereco">Endereço</label>
+                            <label htmlFor="endereco">Endereço</label>
                             <input required className="form-control input-form" type="text" id="endereco" name="endereco" />
                         </div>
 
                         <div className="col-md-4 form-group">
-                            <label for="numComplemento">Numero / Complemento</label>
+                            <label htmlFor="numComplemento">Numero / Complemento</label>
                             <input required className="form-control input-form" type="text" id="numComplemento" name="numComplemento" />
                         </div>
                     </div>
-
                 </section>
-
                 <section>
                     <h3 className="text-center my-3">Situação do Imóvel</h3>
-
                     <div className="row">
-                        <div className="col-8">
+                        <div className="col-xl-5">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
@@ -261,25 +254,20 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label for="situacao1" className="form-control">Trabalhado</label>
+                                <label htmlFor="situacao1" className="form-control">Trabalhado</label>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-8">
+                        <div className="col-xl-5">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
                                         <input id="situacao2" type="radio" name="trabalhado" value="Nao"/>
                                     </div>
                                 </div>
-
-                                <label for="situacao2" className="form-control">Pendência</label>
+                                <label htmlFor="situacao2" className="form-control">Pendência</label>
                             </div>
-                        </div>
-
-                        <div className="col-lg-4">
+                        </div>  
+                        <div className="col-xl-2">
                             <select className="form-control form-group" name="codPendencia">
                                 <option value=""></option>
                                 <option value="F">Fechado</option>
@@ -288,17 +276,16 @@ export default props => (
                                 <option value="P">Parcial</option>
                                 <option value="R">Recusa</option>
                             </select>
-                        </div>
+                        </div> 
                     </div>
                 </section>
 
                 <section>
                     <h3 className="text-center my-3">Recipientes</h3>
-                    <label>Tipo</label>
-
-                    <div className="row justify-content-md-between">
-                        <div className="col-md-4">
-                            <select className="form-control input-form form-group" name="codTipoRecipientes">
+                    <div className="row">
+                        <div className="col-xl-4">
+                            <label htmlFor="codTipoRecipientes">Tipo</label>
+                            <select className="form-control input-form form-group" id="codTipoRecipientes">
                                 <option value=""> </option>
                                 <option value="A">Depósito Elevado</option>
                                 <option value="B">Depósito Não Elevado</option>
@@ -309,9 +296,9 @@ export default props => (
                                 <option value="G">Naturais</option>
                             </select>
                         </div>
-
-                        <div className="col-md-4">
-                            <select className="form-control input-form form-group" name="codRecipiente">
+                        <div className="col-xl-4">
+                        <label htmlFor="codRecipiente">Recipiente</label>
+                            <select className="form-control input-form form-group" id="codRecipiente">
                                 <option value=""> </option>
                                 <option value="1">Ligado À Rede</option>
                                 <option value="2">Não Ligado A Rede</option>
@@ -355,8 +342,8 @@ export default props => (
                                 <option value="40">Outros </option>
                             </select>
                         </div>
-
-                        <div className="col-md-4">
+                        <div className="col-xl-2">
+                            <label htmlFor="codSituacaoRecipientes">Situação</label>
                             <select className="form-control input-form form-group" name="codSituacaoRecipientes">
                                 <option value=""> </option>
                                 <option value="1">Existente</option>
@@ -364,22 +351,17 @@ export default props => (
                                 <option value="3">Com larva</option>
                             </select>
                         </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-sm-2">
-                            <label for="quantidade">Quantidade</label>
+                        <div className="col-xl-2">
+                            <label htmlFor="quantidade">Quantidade</label>
                             <input className="form-control input-form" type="number" id="quantidade" name="quantidade" />
                         </div>
                     </div>
-
                 </section>
 
                 <section>
                     <h3 className="text-center my-3">Controle Mecânico</h3>
-
                     <div className="row">
-                        <div className="col-6 col-lg-2">
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
@@ -387,12 +369,10 @@ export default props => (
                                             value="Sim"/>
                                     </div>
                                 </div>
-
-                                <label for="controleMecanico1" className="form-control">Sim</label>
+                                <label htmlFor="controleMecanico1" className="form-control">Sim</label>
                             </div>
                         </div>
-
-                        <div className="col-6 col-lg-2">
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
@@ -400,17 +380,13 @@ export default props => (
                                             value="Nao"/>
                                     </div>
                                 </div>
-
-                                <label for="controleMecanico2" className="form-control">Não</label>
+                                <label htmlFor="controleMecanico2" className="form-control">Não</label>
                             </div>
                         </div>
                     </div>
-
                 </section>
-
                 <section>
                     <h3 className="text-center my-3">Tratamento Químico</h3>
-
                     <div className="row">
                         <div className="col-md-6 col-lg-3">
                             <div className="input-group mb-3">
@@ -419,11 +395,9 @@ export default props => (
                                         <input id="tratQuimico1" type="radio" name="codTratQuimico" value="1"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="tratQuimico1">Prod. Alter.</label>
+                                <label className="form-control" htmlFor="tratQuimico1">Prod. Alter.</label>
                             </div>
                         </div>
-
                         <div className="col-md-6 col-lg-3">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
@@ -431,11 +405,9 @@ export default props => (
                                         <input id="tratQuimico2" type="radio" name="codTratQuimico" value="2"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="tratQuimico2">Focal</label>
+                                <label className="form-control" htmlFor="tratQuimico2">Focal</label>
                             </div>
                         </div>
-
                         <div className="col-md-6 col-lg-3">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
@@ -443,11 +415,9 @@ export default props => (
                                         <input id="tratQuimico3" type="radio" name="codTratQuimico" value="3"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="tratQuimico3">Perifocal</label>
+                                <label className="form-control" htmlFor="tratQuimico3">Perifocal</label>
                             </div>
                         </div>
-
                         <div className="col-md-6 col-lg-3">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
@@ -455,34 +425,25 @@ export default props => (
                                         <input id="tratQuimico4" type="radio" name="codTratQuimico" value="4"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="tratQuimico4">Nebulização</label>
+                                <label className="form-control" htmlFor="tratQuimico4">Nebulização</label>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
-
-                              <section>
+                <section>
                     <h3 className="text-center my-3">Amostra</h3>
-
                     <div className="row">
-                        <div className="col-6 col-lg-2">
-
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
                                         <input id="amostra1" type="radio" name="amostra" value="Sim"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="amostra1">Sim</label>
+                                <label className="form-control" htmlFor="amostra1">Sim</label>
                             </div>
-
                         </div>
-
-                        <div className="col-6 col-lg-2">
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
@@ -490,14 +451,12 @@ export default props => (
                                     </div>
                                 </div>
 
-                                <label className="form-control" for="amostra2">Não</label>
+                                <label className="form-control" htmlFor="amostra2">Não</label>
                             </div>
                         </div>
                     </div>
-
                     <div className="form-group">
-                        <label>Larvas</label>
-
+                        <h5 className="text-center">Larvas</h5>
                         <div className="row">
                             <div className="col-12 col-md-4">
                                 <div className="input-group mb-3">
@@ -506,11 +465,9 @@ export default props => (
                                             <input id="larvas1" type="radio" name="codLarvas" value="1"/>
                                         </div>
                                     </div>
-
-                                    <label className="form-control" for="larvas1">Exame</label>
+                                    <label className="form-control" htmlFor="larvas1">Exame</label>
                                 </div>
                             </div>
-
                             <div className="col-12 col-md-4">
                                 <div className="input-group mb-3">
                                     <div className="input-group-prepend">
@@ -518,11 +475,9 @@ export default props => (
                                             <input id="larvas2" type="radio" name="codLarvas" value="2"/>
                                         </div>
                                     </div>
-
-                                    <label className="form-control" for="larvas2">Ae Aegypti</label>
+                                    <label className="form-control" htmlFor="larvas2">Ae Aegypti</label>
                                 </div>
                             </div>
-
                             <div className="col-12 col-md-4">
                                 <div className="input-group mb-3">
                                     <div className="input-group-prepend">
@@ -530,8 +485,7 @@ export default props => (
                                             <input id="larvas3" type="radio" name="codLarvas" value="3"/>
                                         </div>
                                     </div>
-
-                                    <label className="form-control" for="larvas3">Ae Albopictus</label>
+                                    <label className="form-control" htmlFor="larvas3">Ae Albopictus</label>
                                 </div>
                             </div>
                         </div>
@@ -540,66 +494,55 @@ export default props => (
 
                 <section>
                     <h3 className="text-center my-3">Programar Retorno</h3>
-
                     <div className="row">
-                        <div className="col-6 col-lg-2">
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
                                         <input required id="progRetorno1" type="radio" name="progRetorno" value="Sim"/>
                                     </div>
                                 </div>
-                                <label className="form-control" for="progRetorno1">Sim</label>
+                                <label className="form-control" htmlFor="progRetorno1">Sim</label>
                             </div>
                         </div>
-
-                        <div className="col-6 col-lg-2">
+                        <div className="col-6">
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">
                                     <div className="input-group-text">
                                         <input required id="progRetorno2" type="radio" name="progRetorno" value="Nao"/>
                                     </div>
                                 </div>
-
-                                <label className="form-control" for="progRetorno2">Não</label>
+                                <label className="form-control" htmlFor="progRetorno2">Não</label>
                             </div>
                         </div>
                     </div>
                 </section>
-
                 <section>
                     <h3 className="text-center my-3">Laboratório</h3>
-
                     <div className="row">
                         <div className="col-8 col-md-8">
                             <div className="form-group">
-                                <label for="responsavel">Responsável</label>
+                                <label htmlFor="responsavel">Responsável</label>
                                 <input className="form-control input-form" type="text" id="responsavel" />
                             </div>
                         </div>
-
                         <div className="col-8 col-md-4">
                             <div className="form-group">
-                                <label for="dataLab">Data</label>
+                                <label htmlFor="dataLab">Data</label>
                                 <input className="form-control input-form" type="date" id="dataLab" />
                             </div>
                         </div>
                     </div>
                 </section>
-
-                             <section>
+                <section>
                     <h3 className="text-center my-3">Agente</h3>
-
                     <div className="row">
-                        <div className="form-group col-md-6">
-                            <label for="idAgente">Agente</label>
+                        <div className="form-group col-12">
                             <input className="form-control input-form" type="text" id="idAgente" name="idAgente" value="" readonly/>
                         </div>
                     </div>
                 </section>
-
                 <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Cadastrar</button>
-                
             </form>
         </main>
         <Footer/>
