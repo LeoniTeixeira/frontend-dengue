@@ -41,7 +41,7 @@ export default props =>(
             <li className="list-group-item list-group-item-action">Falta de apetite</li>
             <li className="list-group-item list-group-item-action">Manchas vermelhas pelo corpo</li>
             <li className="list-group-item list-group-item-action">Dor de cabeça</li>
-            <li className="list-group-item list-group-item-action">Febre alta > 38.5 °C</li>
+            <li className="list-group-item list-group-item-action">Febre alta 38.5 °C</li>
         </ul>
 
         <p>
