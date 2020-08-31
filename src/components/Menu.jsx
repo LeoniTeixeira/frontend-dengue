@@ -1,15 +1,19 @@
 import React, {useState} from 'react';
 
-import Sobre from './Sobre';
-import ComoDenunciar from './ComoDenunciar'
+import Sobre from '../pages/Home/Sobre';
+import ComoDenunciar from '../pages/Home/ComoDenunciar'
 
-export default function Menu() {
+export default function Menu(props) {
     const [active, setActive] = useState(false);
+    const hasBanner = props.hasBanner;
     return(
     <>
+        {hasBanner ?
         <div className='banner'>
             <span className='text' >Todos contra a Dengue!</span>
-        </div>
+        </div> :
+        <div/>
+        }
         
         <ul className='nav-color list-layout'>
              <li><a role='button' className={active ? 'btn-nav' : 'btn-nav active'} onClick={() => setActive(false)} >Home</a></li> 

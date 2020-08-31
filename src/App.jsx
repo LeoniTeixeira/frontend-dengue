@@ -7,7 +7,7 @@ import Home from './pages/Home/index';
 import Login from './pages/Login';
 import Signin from './pages/Signin';
 
-import User from './pages/User';
+import User from './pages/User/Index';
 
 import CadastrarDenuncia from './pages/CadastrarDenuncia';
 import AlterarDenuncia from './pages/AlterarDenuncia';
