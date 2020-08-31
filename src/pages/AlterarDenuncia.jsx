@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 export default props =>(
     <>
-        <Header link1='/user' label1='Voltar'/>
+        <Header link1='/user/listar-denuncias' label1='Voltar'/>
         <main className="col-lg-8 col-md-10 col-xs-12 mx-auto">
             <h1 className="font text-center display-4 py-4">Altera Status da Denúncia</h1>
 

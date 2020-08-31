@@ -3,7 +3,7 @@
 }
 
 .logo{
-    width: 14rem;
+    width: 12rem;
 }
 
 .logo-ft{
@@ -76,6 +76,10 @@ footer{
     margin-top: 5rem;
 }
 @media screen and (min-width: 576px){
+    .logo{
+        width: 14rem;
+    }
+    
     .layout{
         display: flex;
         align-items: center;

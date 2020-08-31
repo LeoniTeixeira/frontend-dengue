@@ -31,8 +31,13 @@ export default props => (
                         <td></td>
                         <td><a href="">Visualizar Imagem</a></td>
                         <td></td>
-                        <td></td>
-                        <td><a href="/user/alterar-denuncia">Editar</a></td>
+                        <td className="">
+                            <select className="custom-select m-0">
+                                <option value="todo">Pendente</option>
+                                <option value="doing">Em andamento</option>
+                                <option value="done">Resolvido</option>
+                            </select>
+                        </td>
                     </tr>
                 </tbody>
             </table>
