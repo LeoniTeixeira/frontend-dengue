@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default props =>(
     <>
@@ -16,8 +16,8 @@ export default props =>(
                 </div>
                 <div className="form-row">
                     <div className="col-md-6 mb-3">
-                        <label htmlFor="cpfCidadao">CPF</label>
-                        <input type="text" className="form-control input-form" id="cpfCidadao"/>
+                        <label htmlFor="cpfCidadao">E-mail</label>
+                        <input type="email" className="form-control input-form" id="emailCidadao"/>
                     </div>
                     <div className="col-md-6 mb-3">
                         <label htmlFor="telefoneCidadao">Telefone</label>
@@ -31,10 +31,15 @@ export default props =>(
                         <input type="text" className="form-control input-form" id="ruaDenuncia"
                             placeholder="Insira a Rua"/>
                     </div>
-                    <div className="col-md-6 mb-3">
+                    <div className="col-md-3 mb-3">
+                        <label htmlFor="ruaDenuncia">Número</label>
+                        <input type="text" className="form-control input-form" id="numeroDenuncia"
+                            placeholder="Insira o Número"/>
+                    </div>
+                    <div className="col-md-3 mb-3">
                         <label htmlFor="bairroDenuncia">Bairro</label>
                         <input type="text" className="form-control input-form" id="bairroDenuncia"
-                            placeholder="Insira o Bairro." />
+                            placeholder="Insira o Bairro" />
                     </div>
                 </div>
                 <h5 className="mb-3 text-center">Selecionar apenas imagens .jpeg/.jpg ou .png</h5>

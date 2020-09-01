@@ -1,7 +1,6 @@
 import React from 'react';
-
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default props =>(
         <>
@@ -20,13 +19,11 @@ export default props =>(
                             <label htmlFor="telefoneCidadao">Telefone</label>
                             <input className="form-control input-form" type="text" id="telefoneCidadao" maxLength="11" />
                         </div>
-
                         <div className="col-md-6 form-group">
                             <label htmlFor="emailCidadao">E-mail</label>
                             <input className="form-control input-form" type="email" id="emailCidadao" />
                         </div>
                     </div>
-                    
                     <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Alterar</button>
                 </form>
             </main>

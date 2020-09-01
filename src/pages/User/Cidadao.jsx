@@ -1,9 +1,5 @@
 import React from 'react';
 
-import Menu from '../../components/Menu'
-
-// import { Container } from './styles';
-
 function Cidadao() {
   return (
     <div className='text-center col-lg-4 col-md-6 col-xs-10 mx-auto py-5'>
@@ -13,8 +9,6 @@ function Cidadao() {
         <a className='btn btn-primary btn-block' href="">Meus Dados</a>
     </div> 
   )
-
-
 }
 
 export default Cidadao;

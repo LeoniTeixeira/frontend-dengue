@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default props => (
     <>
@@ -29,15 +29,10 @@ export default props => (
                         <td> </td>
                         <td></td>
                         <td></td>
-                        <td><a href="">Visualizar Imagem</a></td>
+                        <td><a href="">Visualizar</a></td>
                         <td></td>
-                        <td className="">
-                            <select className="custom-select m-0">
-                                <option value="todo">Pendente</option>
-                                <option value="doing">Em andamento</option>
-                                <option value="done">Resolvido</option>
-                            </select>
-                        </td>
+                        <td></td>
+                        <td><a href="/user/alterar-denuncia">Editar</a></td>
                     </tr>
                 </tbody>
             </table>

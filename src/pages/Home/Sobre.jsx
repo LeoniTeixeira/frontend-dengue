@@ -2,9 +2,7 @@ import React from 'react';
 
 export default props =>(
     <main className="col-lg-10 col-md-10 col-xs-12 container text-justify center pb-5">
-
-        <h1 className="font text-center display-4 py-4">Dengue: sintomas, causas, tratamento e prevenção</h1>
-
+        <h1 className="text-center py-4 title">Dengue: sintomas, causas, tratamento e prevenção</h1>
         <p>
             Dengue é uma doença febril grave causada por um arbovírus. Arbovírus são vírus transmitidos por picadas
             de
@@ -43,7 +41,6 @@ export default props =>(
             <li className="list-group-item list-group-item-action">Dor de cabeça</li>
             <li className="list-group-item list-group-item-action">Febre alta 38.5 °C</li>
         </ul>
-
         <p>
             Na fase febril inicial da dengue, pode ser difícil diferenciá-la. A forma grave da doença inclui dor
             abdominal intensa e contínua, vômitos persistentes e sangramento de mucosas. Ao apresentar os sintomas,
@@ -65,6 +62,5 @@ export default props =>(
             colocando a
             vida da pessoa em risco.
         </p>
-
     </main>
 )

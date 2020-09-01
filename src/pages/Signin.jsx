@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -16,7 +15,6 @@ export default props =>(
                             placeholder="Insira o nome" />
                     </div>
                 </div>
-
                 <div className="form-row">
                     <div className="col-md-6 mb-3">
                         <label htmlFor="cpfCidadao">CPF</label>
@@ -29,7 +27,6 @@ export default props =>(
                             placeholder="(99)99999-9999" pattern=".{15}"/>
                     </div>
                 </div>
-
                 <div className="form-row">
                     <div className="col-md-6 mb-3">
                         <label htmlFor="emailCidadao">E-mail</label>
@@ -42,7 +39,6 @@ export default props =>(
                             placeholder="Confirme o E-mail"/>
                     </div>
                 </div>
-
                 <div className="row">
                     <div className="form-group col-md-6 mb-3">
                         <label htmlFor="senhaCidadao">Senha</label>
@@ -53,7 +49,6 @@ export default props =>(
                         <input className="form-control input-form" type="password" minlength="6" id="confirmaSenhaCidadao"/>
                     </div>
                 </div>
-
                 <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Cadastrar</button>        
             </form>
         </main>

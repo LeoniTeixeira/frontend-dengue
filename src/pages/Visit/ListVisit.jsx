@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default props => (
     <>
         <Header link1='/user' label1='Voltar'/>
         <main className="col-12">
             <h1 className="font text-center display-4 py-4">Listagem de Visitas</h1>
-
             <table className="table table-bordered table-hover table-responsive" id="visita">
                 <thead className="thead-light">
                     <tr className="text-center">
@@ -38,7 +37,6 @@ export default props => (
                         <th>Laboratório</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     <tr className="text-center" id="">
                         <td></td>

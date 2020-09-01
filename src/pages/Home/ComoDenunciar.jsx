@@ -2,10 +2,9 @@ import React from 'react';
 
 export default props =>(
     <main className='col-lg-10 col-md-10 col-xs-12 container text-justify center pb-5' >
-        <h1 className="font text-center display-4 py-4">Para poder denunciar um local de risco, é
+        <h1 className="text-center title py-4">Para poder denunciar um local de risco, é
             necessário efetuar um cadastro
             no sistema, fornecendo as seguintes informações:</h1>
-
         <ul className="list-group text-justify">
             <li className="list-group-item list-group-item-action border border-primary mb-3"><b>Nome completo</b> e 
                 <b> CPF </b>
@@ -37,9 +36,7 @@ export default props =>(
                 chegará à <b>página de
                     denúncias</b>
             </li>
-
-            <p className="font text-center display-4 py-3">Página de Denúncia</p>
-
+            <h2 className="text-center title py-3">Página de Denúncia</h2>
             <li className="list-group-item border-info mb-3 text-info">Nesta tela, deverão ser
                 preenchidos os seguintes campos:
 
@@ -66,7 +63,6 @@ export default props =>(
                         saúde e responsáveis pelo trâmite da denúncia.</li>
                 </ul>
             </li>
-
         </ul>
     </main>
 )
