@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header/Index';
-import Footer from '../components/Footer/Index';
 
 export default props =>(
     <>
@@ -25,6 +24,5 @@ export default props =>(
                 <p>Não possui conta? <a href='/signin'>Clique aqui</a> para se cadastrar.</p>
             </form>
         </main>
-        <Footer/>
     </>
 )

@@ -14,26 +14,36 @@ import ChangeAgent from '../pages/Agent/ChangeAgent';
 import ListAgent from '../pages/Agent/ListAgent';
 import RegisterVisit from '../pages/Visit/RegisterVisit';
 import ListVisit from '../pages/Visit/ListVisit';
+import Footer from '../components/Footer/Index'
 
 export default props => {
   return (
-    <Router>
-      <Switch>
-        <Route  exact path='/' component={Home} />
-        <Route  path='/login' component={Login} />
-        <Route  path='/signin' component={Signin} />
-        <Route  exact path='/user' component={User} />
-        <Route  path='/user/denunciar' component={RegisterComplaint} />
-        <Route  path='/user/alterar-denuncia' component={ChangeComplaint} />
-        <Route  path='/user/listar-denuncias' component={ListComplaint} />
-        <Route  path='/user/dados-cidadao' component={ChangeCitizen} />
-        <Route  path='/user/listar-cidadaos' component={ListCitizen} />
-        <Route  path='/user/cadastrar-funcionario' component={RegisterAgent} />
-        <Route  path='/user/alterar-funcionarios' component={ChangeAgent} />
-        <Route  path='/user/listar-funcionarios' component={ListAgent} />
-        <Route  path='/user/cadastrar-visita' component={RegisterVisit} />
-        <Route  path='/user/listar-visitas' component={ListVisit} />
-      </Switch>
-    </Router>
+    <>
+      <div className="d-flex flex-column vh-100">
+        <div className="flex-shrink-0">
+          <Router>
+            <Switch>
+              <Route  exact path='/' component={Home} />
+              <Route  path='/login' component={Login} />
+              <Route  path='/signin' component={Signin} />
+              <Route  exact path='/user' component={User} />
+              <Route  path='/user/denunciar' component={RegisterComplaint} />
+              <Route  path='/user/alterar-denuncia' component={ChangeComplaint} />
+              <Route  path='/user/listar-denuncias' component={ListComplaint} />
+              <Route  path='/user/dados-cidadao' component={ChangeCitizen} />
+              <Route  path='/user/listar-cidadaos' component={ListCitizen} />
+              <Route  path='/user/cadastrar-funcionario' component={RegisterAgent} />
+              <Route  path='/user/alterar-funcionarios' component={ChangeAgent} />
+              <Route  path='/user/listar-funcionarios' component={ListAgent} />
+              <Route  path='/user/cadastrar-visita' component={RegisterVisit} />
+              <Route  path='/user/listar-visitas' component={ListVisit} />
+            </Switch>
+          </Router>
+        </div>
+        <div className="mt-auto">
+          <Footer/>
+        </div>
+      </div>
+    </>
   )
 }

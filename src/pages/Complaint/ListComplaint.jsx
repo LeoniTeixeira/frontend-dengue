@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../../components/Header/Index';
-import Footer from '../../components/Footer/Index';
 import { data } from "../../data/user"
 
 export default props => {
@@ -40,7 +39,6 @@ export default props => {
                     </tbody>
                 </table>
             </main>
-            <Footer/>
         </>
     )
 }

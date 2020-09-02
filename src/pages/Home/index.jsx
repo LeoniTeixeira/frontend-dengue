@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../../components/Header/Index';
 import Menu from '../../components/Menu/Index';
-import Footer from '../../components/Footer/Index';
 
 export default props =>(
     <>
@@ -9,6 +8,5 @@ export default props =>(
                 link2='/signin' label2='Cadastrar'
         />
         <Menu hasBanner={true} />
-        <Footer/>
     </>
 )

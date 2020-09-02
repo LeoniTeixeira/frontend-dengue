@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../../components/Header/Index";
-import Footer from '../../components/Footer/Index';
 import Citizen from "./Citizen";
 import Agent from "./Agent";
 import Adm from "./Adm";
@@ -26,8 +25,6 @@ export default props => {
                 }
               })()}
             </div>
-            <Footer />
-
         </>
     )
 }

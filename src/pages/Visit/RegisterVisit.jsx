@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../../components/Header/Index';
-import Footer from '../../components/Footer/Index';
 
 export default props => (
     <>
@@ -502,6 +501,5 @@ export default props => (
                 <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Cadastrar</button>
             </form>
         </main>
-        <Footer/>
     </>
 )
