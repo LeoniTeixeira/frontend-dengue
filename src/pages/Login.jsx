@@ -9,7 +9,7 @@ export default props =>(
             <h1 className='text-center mt-5'>Entrar</h1>
             <form className='col-lg-4 col-md-6 col-xs-12 mx-auto login'>  
                 <div className='form-group'>
-                    <label htmlFor="account">Conta</label>
+                    <label htmlFor="account">E-mail</label>
                     <input className='form-control' type="email" id="account"/>
                 </div>
                 <div className='form-group'>

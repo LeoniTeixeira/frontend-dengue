@@ -1,8 +1,9 @@
 export const data = {
     user: { id: "0001",
-            type: 1,
+            type: "citizen",
             name: "Joao",
             email: "joao@joao.com",
-            tel: "999999999"
+            tel: "999999999",
+            active: true
         }
 }
