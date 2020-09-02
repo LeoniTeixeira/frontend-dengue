@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Citizen() {
+function Agent() {
   return (
     <div className='text-center col-lg-4 col-md-6 col-xs-10 mx-auto py-5 '>
         <h1>Agente de saúde</h1><br />
@@ -11,4 +11,4 @@ function Citizen() {
   )
 }
 
-export default Citizen;
+export default Agent;
