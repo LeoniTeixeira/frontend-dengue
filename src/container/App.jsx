@@ -35,5 +35,5 @@ export default props => {
         <Route  path='/user/listar-visitas' component={ListVisit} />
       </Switch>
     </Router>
-)
+  )
 }
