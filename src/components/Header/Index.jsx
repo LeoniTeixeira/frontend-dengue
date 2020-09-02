@@ -1,7 +1,7 @@
 import React from 'react';
-
-import Logo from '../assets/img/logo.png'
 import { Navbar, Nav } from 'react-bootstrap';
+import Logo from '../../assets/img/logo.png'
+import './Index.css'
 
 
 export default props => {

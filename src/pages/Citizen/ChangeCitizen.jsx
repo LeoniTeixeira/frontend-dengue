@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../components/Header/Index';
+import Footer from '../../components/Footer/Index';
 import { Form } from '@unform/web';
 import Input from '../../components/Input';
 import { data } from '../../data/user'

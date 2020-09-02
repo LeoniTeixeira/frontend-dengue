@@ -1,6 +1,6 @@
 import React from 'react';
-
-import Logo from '../assets/img/logo-2.png'
+import Logo from '../../assets/img/logo-2.png'
+import './Index.css'
 
 export default props => (
     <footer className='color container-fluid text-center text-white p-3'>

@@ -4,6 +4,7 @@ export const data = {
             name: "Joao",
             email: "joao@joao.com",
             tel: "999999999",
-            active: true
+            active: true,
+            admPrivilege: false
         }
 }

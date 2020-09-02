@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import Header from '../../components/Header/Index';
+import Footer from '../../components/Footer/Index';
 import { Form } from '@unform/web';
 import Input from '../../components/Input';
 import TextArea from '../../components/TextArea';
@@ -37,17 +37,17 @@ export default props =>{
                     <div className="form-row">
                         <div className="col-md-6 mb-3">
                             <label htmlFor="street">Rua</label>
-                            <Input type="text" className="form-control input-form" name="addressComplaint.street" id="street"
+                            <Input required type="text" className="form-control input-form" name="addressComplaint.street" id="street"
                                 placeholder="Insira a Rua"/>
                         </div>
                         <div className="col-md-3 mb-3">
                             <label htmlFor="number">Número</label>
-                            <Input type="text" className="form-control input-form" name="addressComplaint.number" id="number"
+                            <Input required type="text" className="form-control input-form" name="addressComplaint.number" id="number"
                                 placeholder="Insira o Número"/>
                         </div>
                         <div className="col-md-3 mb-3">
                             <label htmlFor="neighborhood">Bairro</label>
-                            <Input type="text" className="form-control input-form" name="addressComplaint.neighborhood" id="neighborhood"
+                            <Input required type="text" className="form-control input-form" name="addressComplaint.neighborhood" id="neighborhood"
                                 placeholder="Insira o Bairro" />
                         </div>
                     </div>
@@ -65,7 +65,7 @@ export default props =>{
                     </div>
                     <div className="pb-3">
                         <label htmlFor="description">Descrição</label>
-                        <TextArea className="form-control" name="description" id="description" rows="3"/>
+                        <TextArea required className="form-control" name="description" id="description" rows="3"/>
                     </div>
                     <button className='btn btn-primary btn-block col-lg-4 col-md-6 my-5 mx-auto' type="submit">Cadastrar</button>
                 </Form>

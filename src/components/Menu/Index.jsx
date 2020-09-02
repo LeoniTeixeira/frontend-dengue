@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-
-import Sobre from '../pages/Home/Sobre';
-import ComoDenunciar from '../pages/Home/ComoDenunciar'
+import Sobre from '../../pages/Home/Sobre';
+import ComoDenunciar from '../../pages/Home/ComoDenunciar'
+import './Index.css'
 
 export default function Menu(props) {
     const [active, setActive] = useState(false);
@@ -10,7 +10,7 @@ export default function Menu(props) {
     <>
         {hasBanner ?
         <div className='banner'>
-            <span className='text' >Todos contra a Dengue!</span>
+            <span>Todos contra a Dengue!</span>
         </div> :
         <div/>
         }

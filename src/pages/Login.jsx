@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Index';
+import Footer from '../components/Footer/Index';
 
 export default props =>(
     <>
         <Header link1='/' label1='Voltar'/>
         <main>
             <h1 className='text-center mt-5'>Entrar</h1>
-            <form className='col-lg-4 col-md-6 col-xs-12 mx-auto login'>  
+            <form className='col-lg-4 col-md-6 col-xs-12 mx-auto'>  
                 <div className='form-group'>
                     <label htmlFor="account">E-mail</label>
                     <input className='form-control' type="email" id="account"/>
