@@ -56,4 +56,8 @@
         display: flex; 
         padding-left: 3rem;        
     }
+
+    .banner{
+        height: 16rem;
+    }
 }
