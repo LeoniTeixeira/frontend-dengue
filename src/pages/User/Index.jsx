@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Cidadao from './Cidadao';
+import Citizen from './Citizen';
 
 export default props => {
     const type = 1;
@@ -26,7 +26,7 @@ export default props => {
                 </div> :
                 <div>
                     {type ?
-                    <Cidadao/> :
+                    <Citizen/> :
 
                     <div className='text-center col-lg-4 col-md-6 col-xs-10 mx-auto py-5 '>
                         <h1>Agente de saúde</h1><br />

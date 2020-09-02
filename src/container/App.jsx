@@ -26,7 +26,7 @@ export default props => {
         <Route  path='/user/denunciar' component={RegisterComplaint} />
         <Route  path='/user/alterar-denuncia' component={ChangeComplaint} />
         <Route  path='/user/listar-denuncias' component={ListComplaint} />
-        <Route  path='/user/alterar-cidadao' component={ChangeCitizen} />
+        <Route  path='/user/dados-cidadao' component={ChangeCitizen} />
         <Route  path='/user/listar-cidadaos' component={ListCitizen} />
         <Route  path='/user/cadastrar-funcionario' component={RegisterAgent} />
         <Route  path='/user/alterar-funcionarios' component={ChangeAgent} />

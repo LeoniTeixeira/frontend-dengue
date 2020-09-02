@@ -24,7 +24,7 @@ export default props => (
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td><a href="/user/alterar-cidadao">Editar</a></td>
+                        <td><a href="/user/dados-cidadao">Editar</a></td>
                         <td><a className="text-danger" href="">Inativar</a></td>
                     </tr>
                 </tbody>
