@@ -4,9 +4,10 @@ function Agent() {
   return (
     <div className='text-center col-lg-4 col-md-6 col-xs-10 mx-auto py-5 '>
         <h1>Agente de saúde</h1><br />
-        <a className='btn btn-primary btn-block' href="/user/listar-denuncias">Listar Denuncias</a><br />
         <a className='btn btn-primary btn-block' href="/user/cadastrar-visita">Cadastrar Visita</a><br />
         <a className='btn btn-primary btn-block' href="/user/listar-visitas">Listar Visitas</a><br />
+        <a className='btn btn-primary btn-block' href="/user/denunciar">Criar Denuncia</a><br />
+        <a className='btn btn-primary btn-block' href="/user/listar-denuncias">Listar Denuncias</a><br />
     </div>
   )
 }

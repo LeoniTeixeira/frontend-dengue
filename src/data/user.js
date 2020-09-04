@@ -1,6 +1,6 @@
 export const data = {
     user: { id: "0001",
-            type: "citizen",
+            type: "agent",
             name: "Joao",
             email: "joao@joao.com",
             tel: "999999999",

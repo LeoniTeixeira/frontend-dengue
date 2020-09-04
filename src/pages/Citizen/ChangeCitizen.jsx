@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Index';
 import { Form } from '@unform/web';
-import Input from '../../components/Input';
+import Input from '../../components/Form/Input';
 import { data } from '../../data/user'
 
 export default props =>{

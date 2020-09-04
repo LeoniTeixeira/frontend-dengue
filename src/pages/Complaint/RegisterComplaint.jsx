@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../../components/Header/Index';
 import { Form } from '@unform/web';
-import Input from '../../components/Input';
-import TextArea from '../../components/TextArea';
+import Input from '../../components/Form/Input';
+import TextArea from '../../components/Form/TextArea';
 import { data } from '../../data/user'
 
 export default props =>{
